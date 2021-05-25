@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=aggregation
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aggregation-feedstock/blob/master/LICENSE.txt)
 
 Summary: Contains functionality for performing the following methods of p-value aggregation: Fisher's method [Fisher, RA (1932, ISBN: 9780028447308)], the Lancaster method (weighted Fisher's method) [Lancaster, HO (1961, <doi:10.1111/j.1467-842X.1961.tb00058.x>)], and Sidak correction [Sidak, Z (1967, <doi:10.1080/01621459.1967.10482935>)].  Please cite Yi et al., the manuscript corresponding to this package [Yi, L et al., (2017), <doi:10.1101/190199>].
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-aggregation` from the `conda-forge` channel can be achieved by add
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-aggregation` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
