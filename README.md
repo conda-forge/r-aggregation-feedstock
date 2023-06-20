@@ -1,11 +1,11 @@
-About r-aggregation
-===================
+About r-aggregation-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aggregation-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=aggregation
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aggregation-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains functionality for performing the following methods of p-value aggregation: Fisher's method [Fisher, RA (1932, ISBN: 9780028447308)], the Lancaster method (weighted Fisher's method) [Lancaster, HO (1961, <doi:10.1111/j.1467-842X.1961.tb00058.x>)], and Sidak correction [Sidak, Z (1967, <doi:10.1080/01621459.1967.10482935>)].  Please cite Yi et al., the manuscript corresponding to this package [Yi, L et al., (2017), <doi:10.1101/190199>].
 
